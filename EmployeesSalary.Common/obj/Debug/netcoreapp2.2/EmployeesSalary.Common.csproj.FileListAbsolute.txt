@@ -1,0 +1,8 @@
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\bin\Debug\netcoreapp2.2\EmployeesSalary.Common.deps.json
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\bin\Debug\netcoreapp2.2\EmployeesSalary.Common.dll
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\bin\Debug\netcoreapp2.2\EmployeesSalary.Common.pdb
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\obj\Debug\netcoreapp2.2\EmployeesSalary.Common.csproj.CoreCompileInputs.cache
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\obj\Debug\netcoreapp2.2\EmployeesSalary.Common.AssemblyInfoInputs.cache
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\obj\Debug\netcoreapp2.2\EmployeesSalary.Common.AssemblyInfo.cs
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\obj\Debug\netcoreapp2.2\EmployeesSalary.Common.dll
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.Common\obj\Debug\netcoreapp2.2\EmployeesSalary.Common.pdb

@@ -1,0 +1,14 @@
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\bin\Debug\netcoreapp2.2\EmployeesSalary.BLL.deps.json
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\bin\Debug\netcoreapp2.2\EmployeesSalary.BLL.dll
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\bin\Debug\netcoreapp2.2\EmployeesSalary.BLL.pdb
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\bin\Debug\netcoreapp2.2\EmployeesSalary.Common.dll
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\bin\Debug\netcoreapp2.2\EmployeesSalary.DAL.dll
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\bin\Debug\netcoreapp2.2\EmployeesSalary.Common.pdb
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\bin\Debug\netcoreapp2.2\EmployeesSalary.DAL.pdb
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\obj\Debug\netcoreapp2.2\EmployeesSalary.BLL.csprojAssemblyReference.cache
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\obj\Debug\netcoreapp2.2\EmployeesSalary.BLL.csproj.CoreCompileInputs.cache
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\obj\Debug\netcoreapp2.2\EmployeesSalary.BLL.AssemblyInfoInputs.cache
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\obj\Debug\netcoreapp2.2\EmployeesSalary.BLL.AssemblyInfo.cs
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\obj\Debug\netcoreapp2.2\EmployeesSalary.BLL.csproj.CopyComplete
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\obj\Debug\netcoreapp2.2\EmployeesSalary.BLL.dll
+C:\dev\Personal\GLOBAL-TEST\EmployeesSalary\EmployeesSalary.BLL\obj\Debug\netcoreapp2.2\EmployeesSalary.BLL.pdb

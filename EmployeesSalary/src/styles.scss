@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootswatch/dist/flatly/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+@import '../node_modules/primeicons/primeicons.css';
+@import '../node_modules/primeng/resources/themes/nova-light/theme.css';
+@import '../node_modules/primeng/resources/primeng.min.css';
+
+.ui-paginator .ui-paginator-page.ui-state-active {
+  background-color: #2c3e50 !important;
+  color: #ffffff;
+  border-color: #2c3e50 !important;
+}
+
+.ui-table .ui-table-tbody > tr.ui-state-highlight {
+  background-color: #2c3e50 !important;
+  color: #FFFFFF;
+}
+
+.ui-table .ui-table-tbody > tr:nth-child(even).ui-state-highlight {
+  background-color: #2c3e50 !important;
+  color: #FFFFFF;
+}
+
+
+.ui-table .ui-sortable-column.ui-state-highlight {
+  background-color: #2c3e50 !important;
+  color: #FFFFFF !important;
+}

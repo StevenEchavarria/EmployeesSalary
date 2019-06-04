@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="bs-component">
+    <div class="alert alert-dismissible alert-light">
+      <h4 class="alert-heading">{{ employeeViewModel.messages.title.information }}</h4>
+      <p class="mb-0">
+        {{ employeeViewModel.messages.title.messageInfo }}
+      </p>
+    </div>
+  </div>
+
+  <form [formGroup]="form">
+    <div class="form-group">
+      <div class="filter">
+        <span class="ui-float-label">
+          <input id="float-input" type="text" size="30" pInputText formControlName="employeeId">
+          <label for="float-input"> {{ employeeViewModel.messages.fields.employeeId }} </label>
+        </span>
+        <button id="disabled-btn" type="button" (click)="searchEmployees()" pButton class="btn btn-primary">{{ employeeViewModel.messages.buttons.getEmployee }}</button>
+      </div>
+    </div>
+  </form>
+  <div class="info-table" *ngIf="employeeViewModel.showTableInfo">
+    <h3 class="title"> {{ employeeViewModel.messages.title.employeesSalary }}</h3>
+    <p-table [columns]="columns"
+             [value]="employeeViewModel.employeeResponse"
+             [paginator]="true"
+             [rows]="10"
+             [rowsPerPageOptions]="[10, 20, 30]"
+             [responsive]="true"
+             dataKey="id"
+             class="table table-hover">
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th class="table-text" *ngFor="let col of columns" [pSortableColumn]="col.field">
+            {{ col.header }}
+            <p-sortIcon [field]="col.field"></p-sortIcon>
+          </th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr [pSelectableRow]="rowData">
+          <td class="table-text" *ngFor="let col of columns">
+            {{ rowData[col.field] }}
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="emptymessage" class="container" let-columns>
+        <tr>
+          <td class="table-text" [attr.colspan]="columns.length">
+            {{ employeeViewModel.messages.table.noResults }}
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+
+</div>

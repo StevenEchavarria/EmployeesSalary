@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <TypeScriptCompileBlocked>True</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>3.4</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\app\domain\models\entity\Employee.ts" />
+    <None Remove="src\app\domain\models\gateway\employee-gateway.abstract.ts" />
+    <None Remove="src\app\domain\usecase\employee\employee.service.ts" />
+    <None Remove="src\app\view\employee\employee.component.ts" />
+    <None Remove="src\app\view\employee\employee.view-model.ts" />
+    <None Remove="src\app\infraestructure\common\alertify.service.ts" />
+    <None Remove="src\app\infraestructure\employee\employee.service.ts" />
+    <None Remove="src\app\routes.ts" />
+    <None Remove="src\app\utils\messages.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeesSalary.BLL\EmployeesSalary.BLL.csproj" />
+    <ProjectReference Include="..\EmployeesSalary.Common\EmployeesSalary.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Log\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\domain\models\entity\Employee.ts" />
+    <TypeScriptCompile Include="src\app\domain\models\gateway\employee-gateway.abstract.ts" />
+    <TypeScriptCompile Include="src\app\domain\usecase\employee\employee.service.ts" />
+    <TypeScriptCompile Include="src\app\view\employee\employee.component.ts" />
+    <TypeScriptCompile Include="src\app\view\employee\employee.view-model.ts" />
+    <TypeScriptCompile Include="src\app\infraestructure\common\alertify.service.ts" />
+    <TypeScriptCompile Include="src\app\infraestructure\employee\employee.service.ts" />
+    <TypeScriptCompile Include="src\app\routes.ts" />
+    <TypeScriptCompile Include="src\app\utils\messages.ts" />
+  </ItemGroup>
+
+</Project>
